@@ -29,5 +29,5 @@ Assumptions:
   occurred.
 
 Major algorithms & key variables:
-Algorithms: Backtracking recursive algorithm (Puzzle::solve)
-Key Variables: Puzzle
+* Algorithms: Backtracking recursive algorithm (Puzzle::solve)
+* Key Variables: Puzzle
