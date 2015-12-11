@@ -2,8 +2,8 @@
 Examples of projects from the Graduate Certificate in Computer Science. 
 These were actual assignments and I in no way condone the use of these 
 for cheating, see LICENSE. Feel free to help me improve them too!
-AUTHOR: Kelsey Stemm
-CONTACT: kestemm@live.com
+
+AUTHOR: Kelsey Stemm                                CONTACT: kestemm@live.com
 
 ******************************************************************************
 **Concordance Generator**
