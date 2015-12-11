@@ -69,6 +69,7 @@ istream& operator>>(istream &input, Puzzle & newPuzzle) {
    }
    return input;
 }
+
 //--------------------------------------------------------------------------
 // ostream& operator<<(ostream &output, const Puzzle & thePuzzle)
 // Overloaded << operator: allows for output of entire Puzzle object
@@ -84,6 +85,7 @@ ostream& operator<<(ostream &output, const Puzzle & thePuzzle) {
    }
    return output;
 }
+
 //--------------------------------------------------------------------------
 // Puzzle()
 // Constructs a puzzle of Squares.
@@ -105,7 +107,6 @@ Puzzle::Puzzle() {
       }
    }
 }
-
 
 //--------------------------------------------------------------------------
 // ~Puzzle()
@@ -148,7 +149,7 @@ void Puzzle::display() {
       cout << endl;
    }
 }
-s
+
 //--------------------------------------------------------------------------
 // numEmpty()
 // Determines the number of empty squares in a Puzzle
@@ -178,6 +179,7 @@ int Puzzle::numEmpty() {
 int Puzzle::size() {
    return sizeInt;
 }
+
 //--------------------------------------------------------------------------
 // Square& const get(int row, int col)
 // The get function retrieves the reference to a Square at x,y coordinates
@@ -220,7 +222,6 @@ bool Puzzle::setFixedToTrue(const int row, const int col) {
    bool fixed = puzArray[row][col]->setFixedTrue();
    return fixed;
 }
-
 
 //--------------------------------------------------------------------------
 // bool remove(int row, int col)
