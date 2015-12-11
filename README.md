@@ -3,7 +3,7 @@ Examples of projects from the Graduate Certificate in Computer Science.
 These were actual assignments and I in no way condone the use of these 
 for cheating, see LICENSE. Feel free to help me improve them too!
 
-** Concordance Generator **
+**Concordance Generator**
 
 Description:
 A concordance generator reads in a body of text and outputs individual words
@@ -44,6 +44,7 @@ Major algorithms & key variables:
 * Algorithms: Recursive binary tree search
 * Key Variables: ifstream inFile, ReadIn toRead, BST theTree
 
+******************************************************************************
 **Sudoku Solver**
 
 Description:
