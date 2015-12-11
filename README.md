@@ -8,6 +8,10 @@ AUTHOR: Kelsey Stemm                                CONTACT: kestemm@live.com
 ******************************************************************************
 **Concordance Generator**
 
+Language: C++
+
+Files: ConGenDriver.cpp, LinkedList.h, BST.h, BST.cpp, ReadIn.h, ReadIn.cpp
+
 Description:
 A concordance generator reads in a body of text and outputs individual words
 that occur within the body of text and gives context to when they are used, 
@@ -49,6 +53,10 @@ Major algorithms & key variables:
 
 ******************************************************************************
 **Sudoku Solver**
+
+Language: C++
+
+Files: SudokuSolver.cpp, Puzzle.h, Puzzle.cpp, Square.h, Square.cpp
 
 Description:
 udoku is a game of placement of non-repeating numbers into a grid of rows,
