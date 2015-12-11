@@ -48,7 +48,7 @@ Assumptions:
 * File to utilize is accepted as a command line argument only
 
 Major algorithms & key variables:
-* Algorithms: Recursive binary tree search
+* Algorithms: Recursive binary tree search, LinkedList (template)
 * Key Variables: ifstream inFile, ReadIn toRead, BST theTree
 
 ******************************************************************************
