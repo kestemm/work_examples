@@ -3,6 +3,47 @@ Examples of projects from the Graduate Certificate in Computer Science.
 These were actual assignments and I in no way condone the use of these 
 for cheating, see LICENSE. Feel free to help me improve them too!
 
+** Concordance Generator **
+
+Description:
+A concordance generator reads in a body of text and outputs individual words
+that occur within the body of text and gives context to when they are used, 
+specifically the 5 preceeding and 5 subsequent words, when available.
+Stop words are short words that generally do not have a context within a 
+sentence, for example “a, ” “to”, or “or, ” which will be avoided.
+Words are delimited by spaces and may contain within the word punctuation.
+Keywords are not punctuation only and any trailing punctuation will be 
+eliminated.
+
+Inputs: 
+The program’s input data is any.txt file, and will be read as ASCII letters.
+* Delimiters can be spaces, tabs, or end lines.
+* Empty files will have no concordance data.
+* Files with only punctuation will also have no concordance data.
+* Capitalization will not cause words to be considered to be different, 
+  e.g.“fox” and “Fox” are  the same words.
+* Numbers are included as words.
+* Punctuation-only words are not keywords, but are considered to be
+  contextual and will be treated as words for the pre- and post-keyword
+  concordances.
+
+Outputs:
+Concordance output format follows a Key Word in Context(KWIC) style whereby 
+the key words are shown surrounded by the two 5 - word sets :
+
+|  The quick brown | fox | jumps over the lazy dog    |
+
+|    What does the | fox |	say ? Ring ding ding ding |
+
+Assumptions:
+* ASCII characters only in file
+* stopWords.txt may or may not exists within the directory
+* File to utilize is accepted as a command line argument only
+
+Major algorithms & key variables:
+* Algorithms: Recursive binary tree search
+* Key Variables: ifstream inFile, ReadIn toRead, BST theTree
+
 **Sudoku Solver**
 
 Description:
@@ -25,7 +66,7 @@ Outputs:
 Assumptions:
 * All necessary values will be input, cin will wait until all characters
   necessary are entered
-*When input is incorrect, stop reading in Puzzle. Output where error 
+* When input is incorrect, stop reading in Puzzle. Output where error 
   occurred.
 
 Major algorithms & key variables:
