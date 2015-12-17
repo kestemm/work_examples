@@ -11,6 +11,7 @@ AUTHOR: Kelsey Stemm                                CONTACT: kestemm@live.com
 Language: C++
 
 Files: ConGenDriver.cpp, LinkedList.h, BST.h, BST.cpp, ReadIn.h, ReadIn.cpp
+Optional: stopwords.txt
 
 Description:
 A concordance generator reads in a body of text and outputs individual words
